@@ -1,0 +1,21 @@
+{
+  "name": "grasp",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Gesture-controlled 3D cube: manipulate a Three.js cube with webcam hand gestures via MediaPipe.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "^0.10.14",
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.169.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}
